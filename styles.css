@@ -1,0 +1,168 @@
+body {
+    background-color: #38369A;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh; /* Ensures body takes up at least the full viewport height */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    align-items: center;
+    border-radius: 18px;
+    background-color: #C6EBBE;
+    width: 70%;
+    height: auto;
+
+    margin-top: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.498); /* Corrected syntax for box-shadow */
+}
+
+#search-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px; /* Example: Adds 15px margin below the form */
+}
+
+#search-form label {
+    margin-bottom: 10px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+}
+
+#search-input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+    margin-right: 10px; /* Added margin between input and button */
+}
+
+#search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    transition: 0.2s ease-in-out;
+}
+
+#search-button:hover {
+    background-color: #45a049;
+    border: 1px solid black;
+}
+
+/* Reset margins and padding for the entire page */
+body, h3, h1, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+.pokemon-info-container{
+    background-color: #abcaa3;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px;
+}
+
+/* Background colors for different Pokemon types */
+.type {
+    padding: 4px 8px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.type.normal { background-color: #A8A878; }
+.type.fire { background-color: #F08030; }
+.type.water { background-color: #6890F0; }
+.type.electric { background-color: #F8D030; }
+.type.grass { background-color: #78C850; }
+.type.ice { background-color: #98D8D8; }
+.type.fighting { background-color: #C03028; }
+.type.poison { background-color: #A040A0; }
+.type.ground { background-color: #E0C068; }
+.type.flying { background-color: #A890F0; }
+.type.psychic { background-color: #F85888; }
+.type.bug { background-color: #A8B820; }
+.type.rock { background-color: #B8A038; }
+.type.ghost { background-color: #705898; }
+.type.dragon { background-color: #7038F8; }
+.type.dark { background-color: #705848; }
+.type.steel { background-color: #B8B8D0; }
+.type.fairy { background-color: #EE99AC; }
+
+
+.sprite-container {
+    display: flex;
+    justify-content: center; /* horizontally centers items */
+    align-items: center; /* vertically centers items */
+    /* Optionally, you can set dimensions for the container */
+    width: 100%; /* Example width */
+    height: 200px; /* Example height */
+}
+
+.sprite-container img {
+    width: 200px;
+    height: 200px;
+}
+
+.pokemon-info-container {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centers items along the cross axis (vertical in this case) */
+    text-align: center; /* centers text horizontally */
+    font-variant: normal;
+    /* Optionally, set dimensions and additional styles as needed */
+    width: 100%;
+    max-width: 600px; /* Example max-width */
+    margin: 0 auto; /* Centers the container horizontally on the page */
+}
+
+/* Ensure the table has some spacing around it */
+table {
+    border-spacing: 5px;
+    width: 100%;
+    color: white;
+    background-color: #C6EBBE;
+    margin-top: 20px; /* Example margin for spacing */
+}
+
+/* Style table headers */
+th {
+    background-color: #4CAF50;
+    /* Example background color */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style table cells */
+td {
+    background-color: #4CAF50;
+    padding: 8px;
+}
+
+/* Alternating row colors
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Example alternate color 
+}
+
+tbody tr:hover {
+    background-color: #f0f0f0;
+} */
+
